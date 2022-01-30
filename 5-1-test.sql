@@ -1,9 +1,14 @@
+ -- 코드 값을 레이블로 변경하기
+
+ -- 테이블 생성
 DROP TABLE IF EXISTS mst_users;
 CREATE TABLE mst_users(
     user_id         varchar(255)
   , register_date   varchar(255)
   , register_device integer
 );
+
+-- 데이터 입력
 
 INSERT INTO mst_users
 VALUES
